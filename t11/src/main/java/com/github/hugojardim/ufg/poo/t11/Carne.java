@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Carne {
 
-    private String compra;
-    private ArrayList<Produto> produtos;
-    private ArrayList<Prestacao> prestacoes;
+    private final String compra;
+    private final ArrayList<Produto> produtos;
+    private final ArrayList<Prestacao> prestacoes;
 
     public Carne(String compra) {
         this.compra = compra;

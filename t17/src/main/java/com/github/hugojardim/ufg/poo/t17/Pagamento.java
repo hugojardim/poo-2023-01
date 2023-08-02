@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Pagamento {
 
-    private int dia;
+    private final int dia;
 
     public Pagamento(int dia) {
         this.dia = dia;

@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t13;
 
 public class Jogo {
     //faça set e get para atributos e métodos necessários para a classe Jogo (de videogame) estar funcional e completa
-    private String nomeJogo;
+    private final String nomeJogo;
     private String genero;
     private String plataforma;
     private String desenvolvedora;

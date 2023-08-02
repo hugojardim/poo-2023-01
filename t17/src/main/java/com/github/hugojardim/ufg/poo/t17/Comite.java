@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Comite {
 
-    private List<Pessoa> pessoas;
-    private List<Pessoa> presidentes;
+    private final List<Pessoa> pessoas;
+    private final List<Pessoa> presidentes;
 
     public Comite() {
         this.pessoas = new ArrayList<>();

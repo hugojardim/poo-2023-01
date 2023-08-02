@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t07;
 import java.util.ArrayList;
 
 public class Uniao {
-    private ArrayList filhos;
-    private Pessoa[] parceiros;
+    private final ArrayList filhos;
+    private final Pessoa[] parceiros;
 
     public void novoFilho(Pessoa filho) {
         filhos.add(filho);

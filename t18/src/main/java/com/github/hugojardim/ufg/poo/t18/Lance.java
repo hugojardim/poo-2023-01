@@ -2,12 +2,12 @@ package com.github.hugojardim.ufg.poo.t18;
 
 public class Lance {
 
-    private Jogador jogador;
-    private Peca peca;
-    private Posicao origem;
-    private Posicao destino;
+    private final Jogador jogador;
+    private final Peca peca;
+    private final Posicao origem;
+    private final Posicao destino;
 
-    private Partida partida;
+    private final Partida partida;
 
     public Lance(Jogador jogador, Peca peca, Posicao origem, Posicao destino, Partida partida) {
         this.jogador = jogador;

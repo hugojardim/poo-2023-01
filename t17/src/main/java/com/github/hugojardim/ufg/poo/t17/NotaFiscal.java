@@ -5,7 +5,7 @@ import java.util.List;
 
 public class NotaFiscal {
 
-    private List<Item> itens;
+    private final List<Item> itens;
 
     public NotaFiscal(List<Item> itens) {
         this.itens = itens;

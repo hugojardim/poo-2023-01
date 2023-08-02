@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Questao {
 
-        private String enunciado;
-        private String resposta;
+        private final String enunciado;
+        private final String resposta;
 
         public Questao(String enunciado, String resposta) {
             this.enunciado = enunciado;

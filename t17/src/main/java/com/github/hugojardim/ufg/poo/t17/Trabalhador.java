@@ -2,10 +2,10 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Trabalhador {
 
-    private String nome;
-    private Profissao profissao;
+    private final String nome;
+    private final Profissao profissao;
 
-    private Tarefa tarefa;
+    private final Tarefa tarefa;
 
     public Trabalhador(String nome, Profissao profissao, Tarefa tarefa) {
         this.nome = nome;

@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Passageiro {
 
-    private String nome;
-    private String bilhete;
+    private final String nome;
+    private final String bilhete;
 
     public Passageiro(String nome, String bilhete) {
         this.nome = nome;

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Aluno {
 
-    private List<Prova> provas;
+    private final List<Prova> provas;
 
     public Aluno() {
         this.provas = new ArrayList<>();

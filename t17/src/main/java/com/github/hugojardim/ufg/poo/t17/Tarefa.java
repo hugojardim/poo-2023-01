@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Tarefa {
 
-    private Pagamento pagamento;
+    private final Pagamento pagamento;
 
     public Tarefa(Pagamento pagamento) {
         this.pagamento = pagamento;

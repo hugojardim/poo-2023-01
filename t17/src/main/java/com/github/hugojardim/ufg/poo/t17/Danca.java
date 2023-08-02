@@ -6,12 +6,12 @@ import java.util.List;
 
 public class Danca {
 
-    private String horaInicio;
-    private String horaFim;
+    private final String horaInicio;
+    private final String horaFim;
 
-    private Musica musica;
+    private final Musica musica;
 
-    private List<Pessoa> pessoas;
+    private final List<Pessoa> pessoas;
 
     public Danca(String horaInicio, String horaFim, Musica musica) {
         this.horaInicio = horaInicio;

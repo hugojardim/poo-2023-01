@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Sanduiche {
 
-    private List<Item> itens;
+    private final List<Item> itens;
 
     public Sanduiche() {
         this.itens = new ArrayList<>();

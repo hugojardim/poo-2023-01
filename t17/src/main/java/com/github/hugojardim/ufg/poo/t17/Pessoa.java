@@ -2,10 +2,10 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Pessoa {
 
-    private String nome;
-    private String sexo;
+    private final String nome;
+    private final String sexo;
 
-    private Automovel automovel;
+    private final Automovel automovel;
 
     public Pessoa(String nome, String sexo, Automovel automovel) {
         this.nome = nome;

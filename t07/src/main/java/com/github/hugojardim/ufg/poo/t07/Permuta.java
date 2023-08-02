@@ -14,6 +14,6 @@ public class Permuta {
     }
 
     public static void main(String[] args) {
-        Permutacao(new String(), args[0]);
+        Permutacao("", args[0]);
     }
 }

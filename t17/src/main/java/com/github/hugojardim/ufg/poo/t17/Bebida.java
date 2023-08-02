@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Bebida {
 
-    private Item item;
+    private final Item item;
 
     public Bebida(Item item) {
         this.item = item;

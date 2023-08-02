@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Aeromoca {
 
-    private String nome;
+    private final String nome;
 
     public Aeromoca(String nome) {
         this.nome = nome;

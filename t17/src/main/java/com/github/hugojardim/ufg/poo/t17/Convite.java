@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Convite {
 
-    private Pessoa convidado;
+    private final Pessoa convidado;
     private Pessoa acompanhante;
 
     public Convite(Pessoa convidado) {

@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Curva {
-    private List<Ponto> pontos;
+    private final List<Ponto> pontos;
     public Curva() {
         pontos = new ArrayList<>();
     }

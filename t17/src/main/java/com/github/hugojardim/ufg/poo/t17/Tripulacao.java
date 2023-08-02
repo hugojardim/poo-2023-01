@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Tripulacao {
 
-    private Piloto piloto;
-    private CoPiloto coPiloto;
-    private List<Aeromoca> aeromocas;
+    private final Piloto piloto;
+    private final CoPiloto coPiloto;
+    private final List<Aeromoca> aeromocas;
 
     public Tripulacao(Piloto piloto, CoPiloto coPiloto) {
         this.piloto = piloto;

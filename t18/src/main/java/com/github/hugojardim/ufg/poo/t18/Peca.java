@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t18;
 
 public abstract class Peca {
 
-    private String nome;
+    private final String nome;
 
     public Peca(String nome) {
         this.nome = nome;

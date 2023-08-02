@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Mouse extends Dispositivo{
 
-    private String marca;
-    private String modelo;
+    private final String marca;
+    private final String modelo;
 
     public Mouse(String marca, String modelo) {
         this.marca = marca;

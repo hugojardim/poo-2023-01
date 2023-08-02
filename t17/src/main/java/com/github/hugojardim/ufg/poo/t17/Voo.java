@@ -2,10 +2,10 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Voo {
 
-    private String numeroVoo;
-    private Tripulacao tripulacao;
+    private final String numeroVoo;
+    private final Tripulacao tripulacao;
 
-    private Aviao aviao;
+    private final Aviao aviao;
 
     public Voo(String numeroVoo, Tripulacao tripulacao, Aviao aviao) {
         this.numeroVoo = numeroVoo;

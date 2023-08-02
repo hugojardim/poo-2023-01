@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Diretorio {
-    private String nome;
-    private List<UsuarioDiretorio> usuariosAutorizados;
+    private final String nome;
+    private final List<UsuarioDiretorio> usuariosAutorizados;
 
     public Diretorio(String nome) {
         this.nome = nome;

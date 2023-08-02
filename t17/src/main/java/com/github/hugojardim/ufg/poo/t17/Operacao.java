@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Operacao {
 
-    private String tipo;
-    private String data;
-    private String hora;
+    private final String tipo;
+    private final String data;
+    private final String hora;
 
-    private List<Voo> voos;
+    private final List<Voo> voos;
 
     public Operacao(String tipo, String data, String hora) {
         this.tipo = tipo;

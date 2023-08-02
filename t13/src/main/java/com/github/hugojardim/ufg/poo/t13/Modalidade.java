@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Modalidade {
     //faça set e get para atributos e métodos necessários para a classe Modalidade (de jogo) estar funcional e completa
 
-    private String nomeModalidade;
+    private final String nomeModalidade;
     public String descricaoModalidade;
     private String regras;
     private String campeonatos;

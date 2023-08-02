@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Automovel {
 
-    private Pessoa dono;
+    private final Pessoa dono;
 
     public Automovel(Pessoa dono) {
         this.dono = dono;

@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t11;
 
 public class Folha {
 
-    private TipoFolha tipo;
+    private final TipoFolha tipo;
 
     public Folha(TipoFolha tipo) {
         this.tipo = tipo;

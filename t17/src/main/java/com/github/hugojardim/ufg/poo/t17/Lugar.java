@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Lugar {
 
-    private String identificadorPoltrona;
+    private final String identificadorPoltrona;
     private Passageiro passageiro;
 
     public Lugar(String identificadorPoltrona, Passageiro passageiro) {

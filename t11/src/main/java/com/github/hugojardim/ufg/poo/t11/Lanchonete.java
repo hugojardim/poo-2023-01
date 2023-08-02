@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Lanchonete {
 
-    private ArrayList<Funcionario> funcionarios;
+    private final ArrayList<Funcionario> funcionarios;
 
     public Lanchonete() {
         this.funcionarios = new ArrayList<Funcionario>();

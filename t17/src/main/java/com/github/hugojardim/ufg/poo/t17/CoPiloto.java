@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class CoPiloto {
 
-    private String nome;
+    private final String nome;
 
     public CoPiloto(String nome) {
         this.nome = nome;

@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Pedido {
 
-    private int numeroPedido;
+    private final int numeroPedido;
 
-    private List<Item> itens;
+    private final List<Item> itens;
 
     public Pedido(int numeroPedido) {
         this.numeroPedido = numeroPedido;

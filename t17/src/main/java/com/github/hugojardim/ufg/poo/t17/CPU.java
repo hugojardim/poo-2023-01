@@ -3,7 +3,7 @@ package com.github.hugojardim.ufg.poo.t17;
 public class CPU extends Dispositivo{
 
     private Memoria memoria;
-    private PlacaMae placaMae;
+    private final PlacaMae placaMae;
 
     public CPU(PlacaMae placaMae) {
         this.placaMae = placaMae;

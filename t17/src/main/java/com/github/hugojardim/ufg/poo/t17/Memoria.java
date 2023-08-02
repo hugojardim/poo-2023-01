@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Memoria extends Dispositivo{
 
-    private String velocidade;
-    private String tamanho;
+    private final String velocidade;
+    private final String tamanho;
 
     public Memoria(String velocidade, String tamanho) {
         this.velocidade = velocidade;

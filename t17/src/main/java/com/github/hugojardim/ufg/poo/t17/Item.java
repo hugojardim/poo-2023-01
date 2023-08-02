@@ -5,10 +5,10 @@ import java.util.List;
 
 public class Item {
 
-    private List<Detalhe> detalhes;
+    private final List<Detalhe> detalhes;
 
-    private int quantidade;
-    private float precoUnitario;
+    private final int quantidade;
+    private final float precoUnitario;
 
     public Item(int quantidade, float precoUnitario) {
         this.detalhes = new ArrayList<>();

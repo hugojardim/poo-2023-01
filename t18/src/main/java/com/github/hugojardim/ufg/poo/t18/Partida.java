@@ -5,10 +5,10 @@ import java.util.List;
 
 public class Partida {
 
-    private List<Lance> lances;
-    private String descricao;
+    private final List<Lance> lances;
+    private final String descricao;
 
-    private Tabuleiro tabuleiro;
+    private final Tabuleiro tabuleiro;
 
     public Partida(String descricao, Tabuleiro tabuleiro) {
         this.descricao = descricao;

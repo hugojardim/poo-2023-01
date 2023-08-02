@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Festa {
 
-    private List<Convite> convites;
+    private final List<Convite> convites;
 
     public Festa() {
         this.convites = new ArrayList<>();

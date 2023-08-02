@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public class Arvore {
 
-    private ArrayList<Folha> folhas;
+    private final ArrayList<Folha> folhas;
 
     public Arvore() {
         folhas = new ArrayList<Folha>();

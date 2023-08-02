@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Floresta {
 
-    private ArrayList<Arvore> arvores;
+    private final ArrayList<Arvore> arvores;
 
     public Floresta() {
         arvores = new ArrayList<Arvore>();

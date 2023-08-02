@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Avaliacao {
 
-    private List<Questao> questoes;
-    private List<Prova> provas;
+    private final List<Questao> questoes;
+    private final List<Prova> provas;
 
     public Avaliacao() {
         this.questoes = new ArrayList<>();

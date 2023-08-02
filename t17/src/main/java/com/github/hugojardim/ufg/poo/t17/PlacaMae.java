@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class PlacaMae extends Dispositivo{
 
-    private String marca;
-    private String modelo;
+    private final String marca;
+    private final String modelo;
 
     private CPU cpu;
 

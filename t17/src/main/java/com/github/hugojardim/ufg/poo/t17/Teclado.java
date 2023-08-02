@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t17;
 
 public class Teclado extends Dispositivo{
 
-    private String marca;
-    private String modelo;
+    private final String marca;
+    private final String modelo;
 
     public Teclado(String marca, String modelo) {
         this.marca = marca;

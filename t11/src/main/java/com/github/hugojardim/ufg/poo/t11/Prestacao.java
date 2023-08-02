@@ -3,8 +3,8 @@ import java.util.Date;
 
 public class Prestacao {
 
-    private double valor;
-    private Date dataLimite;
+    private final double valor;
+    private final Date dataLimite;
 
     public Prestacao(double valor, Date dataLimite) {
         this.valor = valor;

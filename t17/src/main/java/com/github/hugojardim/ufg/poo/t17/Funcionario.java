@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Funcionario {
 
-    private Funcionario gerente;
-    private List<Funcionario> subordinados;
+    private final Funcionario gerente;
+    private final List<Funcionario> subordinados;
 
     public Funcionario(Funcionario gerente) {
         this.gerente = gerente;

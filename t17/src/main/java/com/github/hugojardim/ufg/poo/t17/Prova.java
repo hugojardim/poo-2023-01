@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Prova {
 
-    private List<Resposta> respostas;
+    private final List<Resposta> respostas;
 
     public Prova(List<Resposta> respostas) {
         this.respostas = respostas;

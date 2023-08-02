@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Aeroporto {
 
-    private List<Operacao> operacoes;
+    private final List<Operacao> operacoes;
 
     public Aeroporto() {
         this.operacoes = new ArrayList<>();

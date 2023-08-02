@@ -1,7 +1,7 @@
 package com.github.hugojardim.ufg.poo.t07;
 import java.util.TreeSet;
 public class Festa {
-    private TreeSet convidados = new TreeSet();
+    private final TreeSet convidados = new TreeSet();
     public void novoConvidado(Convidado c) {
         convidados.add(c);
     }

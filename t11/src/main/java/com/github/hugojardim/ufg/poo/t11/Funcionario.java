@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t11;
 
 public class Funcionario {
 
-    private String nome;
-    private boolean gerente;
+    private final String nome;
+    private final boolean gerente;
 
     public Funcionario(String nome, boolean gerente) {
         this.nome = nome;

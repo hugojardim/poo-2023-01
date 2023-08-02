@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Garçonete {
 
-    private String nome;
-    private List<Pedido> pedidos;
+    private final String nome;
+    private final List<Pedido> pedidos;
 
     public Garçonete(String nome) {
         this.nome = nome;

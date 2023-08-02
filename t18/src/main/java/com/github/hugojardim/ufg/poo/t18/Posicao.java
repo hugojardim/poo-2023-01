@@ -2,8 +2,8 @@ package com.github.hugojardim.ufg.poo.t18;
 
 public class Posicao {
 
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
     public Posicao(int x, int y) {
         this.x = x;

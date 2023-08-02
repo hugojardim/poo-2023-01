@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Aviao {
 
-    private List<Voo> voos;
-    private List<Lugar> lugares;
+    private final List<Voo> voos;
+    private final List<Lugar> lugares;
 
     public Aviao(List<Lugar> lugares) {
         this.voos = new ArrayList<>();

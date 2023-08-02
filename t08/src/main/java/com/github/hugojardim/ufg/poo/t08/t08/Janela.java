@@ -2,7 +2,7 @@ package com.github.hugojardim.ufg.poo.t08.t08;
 import java.util.ArrayList;
 
 public class Janela {
-    private ArrayList<ElementoInteracao> elementos;
+    private final ArrayList<ElementoInteracao> elementos;
 
     private Janela() {
         elementos = new ArrayList<>();

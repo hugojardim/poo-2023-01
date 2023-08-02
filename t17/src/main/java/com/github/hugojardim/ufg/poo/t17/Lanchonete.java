@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Lanchonete {
 
-    private List<Sanduiche> sanduiches;
+    private final List<Sanduiche> sanduiches;
 
     public Lanchonete() {
         this.sanduiches = new ArrayList<>();
